@@ -8,6 +8,6 @@ function findMatching(drivers, driver) {
 
 function fuzzyMatch(drivers, start) {
   return drivers.filter(function (driver) {
-    return driver.startsWith(string);
+    return driver.startsWith(start);
   });
 }
